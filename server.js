@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const stripe = require('stripe')('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');
+const stripe = require('stripe')('');
 
 const app = express();
 
